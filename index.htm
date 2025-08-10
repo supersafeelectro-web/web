@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="./static/favicon.ico">
+  <title>Supersafe Electromec — Medical Device</title>
+  <meta name="description" content="Supersafe Electromec is a trusted manufacturer of high-precision medical devices and biochemistry analyzers, helping healthcare professionals achieve accurate and reliable diagnostics.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./static/style.css">
+  <link rel="stylesheet" href="./static/responsive.css">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+  <!-- AOS for scroll animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script>var template_url = "";</script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <!-- Header -->
+    <header id="site-header" class="site-header">
+      <div class="inner header-inner">
+        <div class="logo">
+          <a href="./index.htm"><img src="./static/logo.png" alt="Supersafe Electromec" height="62"></a>
+        </div>
+        <nav class="primary-nav" aria-label="Main navigation">
+          <ul>
+            <li onclick="navToggle();"><a href="./index.htm">Home</a></li>
+            <li onclick="navToggle();"><a href="#about">About</a></li>
+            <li onclick="navToggle();"><a href="#products">Products</a></li>
+            <li onclick="navToggle();"><a href="#certificates">Resources</a></li>
+            <li onclick="navToggle();"><a href="mailto:hr@supersafeelectromec.com">Career</a></li>
+            <li onclick="navToggle();"><a href="#contact-cta">Contact</a></li>
+            <li onclick="navToggle();"><button class="btn loginbutton" title="Login"><i class="fa fa-user-circle"></i> Login</button></li>
+          </ul>
+        </nav>
+        <button id="mobile-nav-toggle" class="mobile-nav-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero" class="hero" style="background-image: url('./static/slide-2.jpg');">
+      <div class="hero-overlay"></div>
+      <div class="inner hero-inner" data-aos="fade-up">
+        <h1>Empowering Healthcare Through Innovation</h1>
+        <p class="lead">Delivering precision-crafted clinical laboratory solutions for reliable diagnostics.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#products">View Products</a>
+          <a class="btn btn-outline" href="#contact-cta">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <main id="main">
+      <!-- About -->
+      <section id="about" class="section about-section inner-section" data-aos="fade-up">
+        <div class="inner">
+          <div class="about-grid">
+            <div class="about-media">
+              <!-- Swiper -->
+              <div class="swiper aboutSwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./static/factory/1.png" alt="Factory View 1" loading="lazy"></div>
+                  <div class="swiper-slide"><img src="./static/factory/2.png" alt="Factory View 2" loading="lazy"></div>
+                  <div class="swiper-slide"><img src="./static/factory/3.png" alt="Factory View 3" loading="lazy"></div>
+                  <div class="swiper-slide"><img src="./static/factory/4.png" alt="Factory View 4" loading="lazy"></div>
+                  <div class="swiper-slide"><img src="./static/factory/5.png" alt="Factory View 5" loading="lazy"></div>
+                </div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Navigation -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+            <div class="about-content">
+              <h2>About Supersafe Electromec</h2>
+              <p>
+                For more than 10 years, Supersafe Electromec has been at the forefront of advancing healthcare
+                technology,
+                building a reputation for engineering dependable, high-precision medical devices. Our journey began in
+                2015 with a focus on trading specialized medical equipment, driven by a vision to bring world-class
+                diagnostic solutions to healthcare providers.
+              </p>
+              <p>
+                Over the years, we have evolved into a fully integrated manufacturer, establishing modern, in-house
+                production facilities dedicated to the development of biochemistry analyzers that meet the most rigorous
+                international quality standards. This transformation reflects our unwavering commitment to innovation,
+                precision engineering, and the delivery of solutions that you can rely on in
+                critical diagnostic settings.
+              </p>
+              <p>
+                Our decade-long track record is built on continuous investment in technology, stringent quality control,
+                and a customer-first approach. Supersafe Electromec's 10 years of excellence is not just a milestone —
+                it is a promise of trust, reliability, and
+                innovation for the decade ahead.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products -->
+      <section id="products" class="section products-section" data-aos="fade-up">
+        <div class="inner">
+          <h2 class="section-title">Our Products</h2>
+          <p class="section-sub">Innovative instruments designed for clinical accuracy.</p>
+          <div class="products-grid">
+            <!-- Example product card: we keep content and image references from existing site -->
+            <article class="product-card" data-aos="fade-up" data-aos-delay="50">
+              <img src="./static/factory/6.png" alt="Biochemistry Analyzer">
+              <div class="card-body">
+                <h3>Biochemistry Analyzer</h3>
+                <p>High-performance analyzers engineered for reproducible laboratory results.</p>
+                <a class="btn btn-primary" href="#products">View Product</a>
+              </div>
+            </article>
+
+            <!-- Placeholder: if you have more products, the existing product.htm will list them; we keep one highlighted card -->
+            <article class="product-card" data-aos="fade-up" data-aos-delay="100">
+              <img src="./static/factory/3.png" alt="Product">
+              <div class="card-body">
+                <h3>Automated Systems</h3>
+                <p>Streamlined automation solutions that increase throughput and reliability.</p>
+                <a class="btn btn-primary" href="#products">View Product</a>
+              </div>
+            </article>
+
+            <article class="product-card" data-aos="fade-up" data-aos-delay="150">
+              <img src="./static/factory/2.png" alt="Product">
+              <div class="card-body">
+                <h3>Reagents & Accessories</h3>
+                <p>Quality reagents and accessories validated to work with our instruments.</p>
+                <a class="btn btn-primary" href="#products">View Product</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certificates -->
+      <section id="certificates" class="section cert-section" data-aos="fade-up">
+        <div class="inner">
+          <h2 class="section-title">Certifications & Partnerships</h2>
+          <div class="cert-grid">
+            <div class="cert-item"><img src="./static/make-in-india.jpg" alt="Make In India"><span>Make In India</span>
+            </div>
+            <div class="cert-item"><img src="./static/iso-13485.jpg" alt="ISO 13485"><span>ISO 13485</span></div>
+            <div class="cert-item"><img src="./static/iso-9001.jpg" alt="ISO 9001"><span>ISO 9001</span></div>
+            <div class="cert-item"><img src="./static/ce.jpg" alt="CE"><span>CE</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact CTA -->
+      <section id="contact-cta" class="section contact-cta" data-aos="fade-up">
+        <div class="inner cta-inner">
+          <h2>Have questions about our products?</h2>
+          <p>Talk to our specialists for technical guidance, pricing, or custom requirements.</p>
+          <div class="cta-actions">
+            <a class="btn btn-outline" href="mailto:md@supersafeelectromec.com">Contact Us</a>
+            <a class="btn btn-primary" href="#products">Browse Products</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="site-footer">
+      <div class="inner footer-inner">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h4>About</h4>
+            <p>Supersafe Electromec manufactures clinical laboratory instruments with a focus on quality and innovation.
+            </p>
+          </div>
+          <div class="footer-col">
+            <h4>Products</h4>
+            <ul>
+              <li><a href="#products">Biochemistry Analyzer</a></li>
+              <li><a href="#products">Automated Systems</a></li>
+              <li><a href="#products">Reagents & Accessories</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="#certificates">Documentation</a></li>
+              <li><a href="#certificates">Certificates</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <p>03, SK-II, Sector-93, Noida, India-201301</p>
+            <p>Email: md@supersafeelectromec.com</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="copy">© <span id="year"></span> Supersafe Electromec. All rights reserved.</div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    AOS.init({ duration: 700, once: true });
+    // Mobile nav toggle
+    document.getElementById('mobile-nav-toggle').addEventListener('click', function () {
+      document.body.classList.toggle('nav-open');
+    });
+    // set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // sticky header on scroll
+    var header = document.getElementById('site-header');
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 60) header.classList.add('scrolled');
+      else header.classList.remove('scrolled');
+    });
+    
+    function navToggle() {
+      document.body.classList.toggle('nav-open');
+    }
+
+  </script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    var aboutSwiper = new Swiper(".aboutSwiper", {
+      loop: true,
+      autoplay: { delay: 3000, disableOnInteraction: false },
+      pagination: { el: ".swiper-pagination", clickable: true },
+      navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
+      effect: 'slide',
+      speed: 600,
+      observer: true,
+      observeParents: true,
+      preloadImages: true,
+      updateOnImagesReady: true
+    });
+  </script>
+</body>
+
+</html>
