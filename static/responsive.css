@@ -1,0 +1,16 @@
+/* Responsive specific overrides kept minimal; main responsive rules live in style.css */
+@media only screen and (max-width: 959px ) {
+  .inner{padding:0 18px}
+  .hero-inner{padding:90px 18px 60px}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:14px}
+  body.nav-open .primary-nav ul {
+  display: flex !important;
+}
+}
+@media only screen and (max-width: 480px ) {
+  .hero h1{font-size:1.6rem}
+  .hero .lead{font-size:0.95rem}
+  .header-inner{padding:10px}
+  .logo img{height:48px}
+  .footer-grid{grid-template-columns:1fr}
+}
